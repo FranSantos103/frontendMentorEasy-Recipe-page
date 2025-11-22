@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+main{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 700px;
+    max-width: 100vw;
+    border-radius: 15px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+h1{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+    font-family: "Young Serif", serif;
+}
+
+.recipeDescription{
+    font-family: "Outfit", sans-serif;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: rgb(56, 55, 55);
+}
+
+.preparationTime{
+    background-color: #f8f0e9;
+    padding: 20px;
+    border-radius: 10px ;
+}
+
+.prepTimeTitle{
+    color:  hsl(332, 62%, 31%);
+    font-size:  1.4rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+}
+
+.prepTimeList{
+    font-size:  1rem;
+    font-family: "Outfit", sans-serif;
+    margin-left: 17px;
+    margin-top: 10px;
+    line-height: 30px;
+    color: rgb(97, 95, 95);
+    font-weight: 500 ;
+}
+
+ul li::marker {
+    color: #181717;
+}
+
+.label{
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #181717;
+}
+
+.ingredients{
+    font-size:  2rem;
+    font-family: "Young Serif", serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #8a1515;
+    font-weight: 500 ;
+}
+
+.ingredientsList{
+    font-size:  1rem;
+    font-family: "Outfit", sans-serif;
+    margin-left: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: rgb(97, 95, 95);
+    font-weight: 500 ;
+}
+
+.ingredientsList li::marker {
+    color: #8a1515;
+}
+
+.instructionsSection{
+    font-family: "Outfit", sans-serif;
+    margin-left: 10px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.instructions{
+    border-top: 1px solid rgb(192, 187, 187);
+    margin-top: 30px;
+    padding-top: 30px;
+    color: #8a1515;
+    font-size:  1.7rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    width: calc(100% + 20px);
+}
+
+.instructionStep{
+    margin-bottom: 10px;
+}
+
+.stepTitle{
+    margin-left: 10px;
+    color: #181717;
+    font-weight: bold;
+}
+
+ol li::marker {
+    color: #8a1515;
+    font-weight: bold;
+}
+
+.nutrition{
+    color: #8a1515;
+    font-size:  1.7rem;
+    font-family: "Young Serif", serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(192, 187, 187);
+}
+
+.nutritionDescription{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(44, 42, 42);
+}
+
+table, td {
+  border-collapse: collapse;
+  font-family: "Outfit", sans-serif;
+}
+
+td{
+    border-bottom: 1px solid rgb(192, 187, 187);
+    padding-top: 20px;
+    padding-right: 15vw;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    vertical-align: bottom;
+}
+
+.fat,
+.nutritionFatValue{
+    border: none;
+}
+
+.nutritionLabel{
+    color: rgb(44, 42, 42);
+}
+
+.nutritionValue{
+    color: #8a1515;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+body{
+    padding: 0px;
+}
+
+main{
+    border-radius: 0px;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+img{
+    margin: 0px;
+    border-radius: 0px;
+}
+
+h1{
+    width: auto;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.recipeDescription{
+    margin-left: 40px;
+    width: 80vw;
+}
+
+.preparationTime{
+    width: 80vw;
+    margin-left: 40px;
+}
+
+.ingredients{
+    margin-left: 40px;
+}
+
+.ingredientsList{
+    margin-left: 60px;
+}
+
+.instructions{
+    margin-left: 30px;
+    width: 80vw;
+}
+
+.instructionStep{
+    margin-bottom: 10px;
+    margin-left: 45px;
+    width: 70vw;
+}
+
+.nutrition{
+    width: 80vw;
+    margin-left: 40px;
+}
+
+.nutritionDescription{
+    margin-left: 40px;
+}
+
+table, td {
+  margin-left: 30px;
+}
+
+}
